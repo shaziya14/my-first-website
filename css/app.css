@@ -1,0 +1,28 @@
+#header {
+    background: url(../img/couchfriends.jpg) top left/cover no-repeat;
+    height: 400px;
+}
+
+#quote {
+    background: #272727;
+    color: white ;
+}
+#our-team   {
+    background: url(../img/workspace.jpg);
+    height: 300px;
+}
+
+.img    {
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+#contact {
+    background-color: #ddd;
+}
+
+footer {
+    background-color: #272727;
+    padding: 10px;
+    color: white;
+}

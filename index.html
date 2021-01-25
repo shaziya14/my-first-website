@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <!-- Nav BAr -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <!--changed color from light to dark-->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">My Website</a> <!--changed name from Navbar to My Website-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#header">Home</a> <!--removed active from class-->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#our-team">Our Team</a> <!--added-->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#quote">About</a> <!--added-->
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button> --> 
+
+              <!-- We can delete this, since we dont need this -->
+            </form>
+          </div>
+        </div>
+      </nav>
+<!-- NAv ends here -->
+
+<!-- adding header -->
+<div id="header">
+    <div class="container p-5 text-center ">
+        <h1 class="mt-5 text-light display-1">My Website</h1>
+        <button class="btn btn-primary mt-5">Learn More</button>
+    </div>
+</div>
+
+<!-- header end -->
+
+<!-- adding quote -->
+<div id="quote">
+    <div class="container p-5">
+         <p class="lead ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+             Minima mollitia non asperiores iure quas nesciunt sed earum numquam sint ipsum corrupti atque, 
+             suscipit eius quis assumenda. Voluptas voluptatibus aliquam earum distinctio sunt alias recusandae 
+             dolorum vel quaerat maxime. Aspernatur alias vitae minus eveniet unde, aliquam velit nihil ducimus voluptates 
+             similique doloremque distinctio? Maxime culpa perferendis adipisci amet rem eos expedita!</p>
+    </div>
+</div>
+ 
+<!-- Quote ends -->
+
+<!-- Our team -->
+<div id="our-team">
+    <div class="container text-center">
+        <h1 class="display-4">Our Team</h1>
+    <div class="row">
+        <div class="col">
+            <img src="img/jane.jpg" class="img" alt="">
+        </div>
+        <div class="col">
+            <img src="img/jenny.jpg" class="img" alt="">
+        </div>
+        <div class="col">
+            <img src="img/jim.jpg" class="img" alt="">
+        </div>
+    </div>
+    </div>
+    <br>
+    <br>
+<!-- Our Teams ends  -->
+
+<!-- Contact Form -->
+<div id="contact">
+    <div class="container p-5">
+        <h2 class="text-center dispaly-5">Subscribe to our mailing list</h2>
+
+    <div class="row">
+        <div class="col-sm-8 offset-sm-2">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Enter your email address">
+                <button class="btn btn-outline-secondary ">Subscribe</button>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+<!-- COntact form ends -->
+
+<!-- footer  -->
+ <footer>
+    <div class="container text-center">Coded with &hearts;</div>
+</footer>
+<!-- footer ends  -->
+    <script src="bootstrap/js/bootstrap.bundle.js "></script>
+</body>
+</html>
